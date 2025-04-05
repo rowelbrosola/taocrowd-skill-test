@@ -81,7 +81,9 @@ const LaunchList = () => {
 
   return (
     <div className="launch-list-container">
-      <SearchBar value={search} onChange={(e) => setSearch(e.target.value)} />
+      <div className="search-bar-container">
+        <SearchBar value={search} onChange={(e) => setSearch(e.target.value)} />
+      </div>
 
       {displayedLaunches.length > 0 ? (
         displayedLaunches.map((launch, index) => {

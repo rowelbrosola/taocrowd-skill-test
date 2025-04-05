@@ -1,7 +1,15 @@
-/* LaunchList.scss */
 .launch-list-container {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.search-bar-container {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #f7f7f7;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .end-message {
